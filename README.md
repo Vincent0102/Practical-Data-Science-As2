@@ -30,61 +30,42 @@ should be used.
 
 Attributes of the dataset are as follow​:
 
-- age​: an individual’s age
-- Continuous. Min: 17, Max: 90
+- age​: an individual’s age. Continuous. Min: 17, Max: 90
 
-- workclass​: an individual’s employment status
-- Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay,
+- workclass​: an individual’s employment status. Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay,
 Never-worked.
 
-- fnlwgt​: final weight, the sampling weight of each entry
-- Continuous. Min: 12285​, Max: 1484705
+- fnlwgt​: final weight, the sampling weight of each entry. Continuous. Min: 12285​, Max: 1484705
 
-- education​: an individual’s highest level of education achieved
-- Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th,
-7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool.
+- education​: an individual’s highest level of education achieved. Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool.
 
-- education-num: an individual’s highest level of education achieved represented in numerical
-values
-- Ordinal numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+- education-num: an individual’s highest level of education achieved represented in numerical values. Ordinal numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
 
-- marital-status​ : an individual’s marital status
-- Married-civ-spouse, Divorced, Never-married, Separated, Widowed,
-Married-spouse-absent, Married-AF-spouse.
+- marital-status​ : an individual’s marital status. Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse.
 
-- occupation​: an individual’s occupation field
-- Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty,
-Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving,
-Priv-house-serv, Protective-serv, Armed-Forces.
+- occupation​: an individual’s occupation field. Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty,
+Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces.
 
-- relationship​: a representation of what the individual is relative to others.
-- Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried.
+- relationship​: a representation of what the individual is relative to others. Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried.
 
-- race​: an individual’s race
-- White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black.
+- race​: an individual’s race. White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black.
 
-- sex​: an individual’s sex
-- Female, Male.
+- sex​: an individual’s sex. Female, Male.
 
-- capital-gain​: an individual’s capital gain
-- Continuous. Min: 0, Max: 99999
+- capital-gain​: an individual’s capital gain. Continuous. Min: 0, Max: 99999
 
-- capital-loss​: an individual’s capital loss
-- Continuous. Min: 0, Max: ​4356
+- capital-loss​: an individual’s capital loss. Continuous. Min: 0, Max: ​4356
 
-- hours-per-week​: an individual’s working hours per week
-- Continuous. Min: 1, Max: 99
+- hours-per-week​: an individual’s working hours per week. Continuous. Min: 1, Max: 99
 
-- native-country​: an individual’s native country
-- United-States, Cambodia, England, Puerto-Rico, Canada, Germany,
+- native-country​: an individual’s native country. United-States, Cambodia, England, Puerto-Rico, Canada, Germany,
 Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras,
 Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France,
 Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala,
 Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong,
 Holand-Netherlands.
 
-- income​: ​label/target​ for if an individual makes over $50k or under
-- >50K, <=50K.
+- income​: ​label/target​ for if an individual makes over $50k or under. >50K, <=50K.
 
 
 The dataset contains missing values and errors as stated on the UCI Machine Learning Repository
