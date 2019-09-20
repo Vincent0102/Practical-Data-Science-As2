@@ -15,6 +15,9 @@ choice for this particular dataset as it produces a higher accuracy score and a 
 rate than using K-nearest Neighbour Classifier. Therefore, it is recommended that Decision
 Tree Classifier should be used when performing classification with the “Adult” dataset.
 
+# Dataset:
+https://archive.ics.uci.edu/ml/datasets/Adult
+
 # Introduction:
 
 The “1994 United States Census Income” dataset, also known as the “Adult” dataset contains 14
